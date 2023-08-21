@@ -61,13 +61,13 @@ let maiorNumero = encontrarMaior(15, 9);
 console.log(maiorNumero);
 ```
 
-6) Criar uma função que recebe um número como parâmetro e retorna a raiz quadrada desse número.
+6) Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
 
 ```js 
-function calcularRaizQuadrada(numero) {
+function quadrado(numero) {
   return numero * numero;
 }
 
-let raizQuadrada = calcularRaizQuadrada(25);
-console.log(raizQuadrada);
+let resultado = quadrado(2);
+console.log(resultado); 
 ```
