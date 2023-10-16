@@ -18,10 +18,12 @@ let listaGenerica = [];
 let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
 ```
 
-3) Adicione à lista `linguagensDeProgramacao` os seguintes elementos.
-linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
+3) Adicione à lista `linguagensDeProgramacao` os seguintes elementos: Java, Ruby e GoLang.
+
 ```js
 let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
+// Lista ao final: ['JavaScript', 'C', 'C++', 'Kotlin', 'Python', 'Java', 'Ruby', 'GoLang']
 ```
 
 4) Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
@@ -35,7 +37,7 @@ console.log(nomes[0]);
 
 ```js
 nomes = ['JavaScript', 'Python', 'Go'];
-console.log(nomes[2]);
+console.log(nomes[1]);
 ```
 
 6) Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
